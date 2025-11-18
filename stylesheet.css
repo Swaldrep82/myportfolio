@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+	font-family: 'Sonsie One', cursive;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	background-color: #444;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: block;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+	background-color: #007BFF;
+	color: #fff;
+}
+
+main {
+	max-width: 1000px:
+	margin: 20px auto;
+	padding: 0 20px;
+}
+
+.card-section {
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 8px;
+	background: linear-gradient(to right, #007BFF, #0056b3);
+	color: white;
+}
+
+.card {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1):
+	color: #333;
+}
+#section2 {
+	background: linear-gradient(to right, #28a745, #218838);
+}
+
+#section3 {
+	background: linear gradient(to right, #ffc107, #e0a800);
+}
+
+#section4 {
+	background: linear gradient(to right, #dc3545, #c82333);
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem 0;
+	margin-top: 20px;
+}
+
+footer a {
+	color: #007BFF;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
